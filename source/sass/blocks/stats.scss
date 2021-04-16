@@ -1,0 +1,48 @@
+.stats {
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.stats__slogan {
+  font-weight: bold;
+  margin-top: 32px;
+  width: 285px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 46px;
+}
+
+.stats__intro {
+  width: 285px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+}
+
+.stats__wrapper {
+  margin-bottom: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 267px;
+}
+
+.stats__header {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stats__textindex {
+  width: 282px;
+  height: 214px;
+  margin: auto;
+  position: absolute;
+  z-index: 2;
+  padding: 90px 19px 85px 19px;
+}
+
+.stats__textindex-background {
+  position: relative;
+  height: 389px;
+}
