@@ -3,6 +3,11 @@
   margin-bottom: 35px;
 }
 
+.availability__wrapper {
+  width: 320px;
+  margin: 0 auto;
+}
+
 .availability__list {
   list-style: none;
   text-align: left;
@@ -20,6 +25,44 @@
 
 .availability__title {
   margin-bottom: 28px;
+  position: relative;
+}
+
+.availability__house::before {
+  content: "";
+  position: absolute;
+  width: 39px;
+  height: 37px;
+  background-image: url("../img/icon-house.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  left: -50px;
+  top: -8px;
+}
+
+.availability__gift::before {
+  content: "";
+  position: absolute;
+  width: 32px;
+  height: 38px;
+  background-image: url("../img/icon-gift.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  left: -50px;
+  top: -8px;
+}
+
+.availability__burger::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 35px;
+  background-image: url("../img/icon-burger.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  left: -50px;
+  top: -8px;
+  background-size: contain;
 }
 
 .advantages__wrapper {

@@ -34,15 +34,40 @@
 }
 
 .stats__textindex {
-  width: 282px;
-  height: 214px;
-  margin: auto;
-  position: absolute;
-  z-index: 2;
-  padding: 90px 19px 85px 19px;
+  width: 320px;
+  height: 389px;
+  margin: 0 auto;
+  position: relative;
 }
 
-.stats__textindex-background {
-  position: relative;
-  height: 389px;
+.stats__textindex::after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  height: 57px;
+  background-image: url("../img/vector.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  left: 0;
+  top: 332px;
+}
+
+.stats__textindex::before {
+  content: "";
+  position: absolute;
+  width: 160px;
+  height: 57px;
+  background-image: url("../img/vector-r.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  left: 160px;
+  top: 332px;
+}
+
+.stats__textindex img {
+  width: 282px;
+  height: 214px;
+  z-index: 2;
+  padding: 90px 19px 85px 19px;
+  background-image: url("../img/back-mobile.jpg");
 }

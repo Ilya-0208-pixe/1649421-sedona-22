@@ -1,11 +1,15 @@
 .page-footer {
   width: 320px;
   height: 233px;
-  margin-top: 10px;
+  margin: 0 auto;
 }
 
 .page-footer__wrapper {
   margin-top: 38px;
+}
+
+.page-footer__social {
+  margin-bottom: 45px;
 }
 
 .social__title {
@@ -32,6 +36,7 @@
   width: 46px;
   height: 48px;
   margin-right: 6px;
+  display: grid;
 }
 
 .social__item a {
@@ -48,4 +53,10 @@
 .copyright__text {
   font-size: 14px;
   line-height: 26px;
+  margin-right: 11px;
+}
+
+.page-footer__copyright {
+  display: inline-flex;
+  margin: 0 auto;
 }
