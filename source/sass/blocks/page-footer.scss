@@ -60,3 +60,33 @@
   display: inline-flex;
   margin: 0 auto;
 }
+
+@media (min-width: $tablet-width) {
+  .page-footer {
+    width: 768px;
+    height: 120px;
+    margin: 0 auto;
+  }
+
+  .page-footer__wrapper {
+    margin: 0;
+    display: flex;
+  }
+
+  .page-footer__social {
+    margin-left: 45px;
+    display: flex;
+  }
+
+  .social__title {
+    margin-right: 135px;
+  }
+
+  .social__list {
+    margin-top: 20px;
+  }
+
+  .page-footer__copyright {
+    padding-top: 30px;
+  }
+}

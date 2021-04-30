@@ -1,4 +1,4 @@
-.map__map-mobile {
+.map__map-mobile img {
   display: block;
   min-width: 320px;
   height: 350px;
@@ -6,8 +6,11 @@
   position: relative;
 }
 
-.map__map-tablet,
-.map__map-desktop {
+.map-map__tablet img {
+  display: none;
+}
+
+.map__map-desktop img {
   display: none;
 }
 
@@ -24,12 +27,17 @@
 }
 
 @media (min-width: $tablet-width) {
-  .map-map__tablet {
+  .map__map-mobile img,
+  .map__map-desktop img {
+    display: none;
+  }
+
+  .map-map__tablet img {
     display: block;
   }
 
-  .map__map-mobile,
-  .map__map-desktop {
-    display: none;
+  .map__map-mobile::before {
+    left: 372px;
+    top: 2464px;
   }
 }

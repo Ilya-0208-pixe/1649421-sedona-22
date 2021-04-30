@@ -113,4 +113,20 @@
   br {
     content: " ";
   }
+
+  .stats__textindex::after {
+    width: 384px;
+    height: 57px;
+    background-image: url("../img/vector-t.svg");
+    left: 0;
+    top: 462px;
+  }
+
+  .stats__textindex::before {
+    width: 384px;
+    height: 57px;
+    background-image: url("../img/vector-tr.svg");
+    left: 384px;
+    top: 462px;
+  }
 }
