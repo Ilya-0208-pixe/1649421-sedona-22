@@ -33,11 +33,13 @@
   .advantages {
     background: rgba(238, 238, 238, 1);
     padding: 0;
+    height: 256px;
   }
 
   .advantages__list {
     display: flex;
     margin: 0;
+    justify-content: space-between;
   }
 
   .advantages__item {

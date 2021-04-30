@@ -78,3 +78,19 @@
 .page-body__logo {
   margin: 0 auto;
 }
+
+@media (min-width: $desktop-width) {
+  .main-nav__list {
+    display: grid;
+    grid-template-columns: 239px 1fr 239px auto;
+    grid-template-rows: 56px;
+    margin-bottom: -60px;
+  }
+
+  .page-body__logo {
+    background-image: url("../img/background-logo-desktop.svg");
+    margin: auto;
+    padding: 42px;
+    background-repeat: no-repeat;
+  }
+}

@@ -90,3 +90,21 @@
     padding-top: 30px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .page-footer {
+    width: inherit;
+  }
+
+  .page-footer__social {
+    margin-left: 104px;
+  }
+
+  .social__title {
+    margin-right: 254px;
+  }
+
+  .social__list {
+    margin-right: 80px;
+  }
+}

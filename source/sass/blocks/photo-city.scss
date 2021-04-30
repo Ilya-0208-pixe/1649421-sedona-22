@@ -98,3 +98,23 @@
     width: 192px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .page-header__logo-d {
+    display: block;
+  }
+
+  .page-header__logo-m,
+  .page-header__logo-t {
+    display: none;
+  }
+
+  .page-header__logo img {
+    height: 256px;
+    width: 800px;
+  }
+
+  .photo-city-wrapper {
+    width: 400px;
+  }
+}

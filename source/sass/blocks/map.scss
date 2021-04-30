@@ -27,6 +27,10 @@
 }
 
 @media (min-width: $tablet-width) {
+  .map {
+    width: 768px;
+  }
+
   .map__map-mobile img,
   .map__map-desktop img {
     display: none;
@@ -39,5 +43,20 @@
   .map__map-mobile::before {
     left: 372px;
     top: 2464px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .map {
+    width: 1200px;
+  }
+
+  .map__map-mobile img,
+  .map__map-tablet img {
+    display: none;
+  }
+
+  .map-map__desktop img {
+    display: block;
   }
 }
