@@ -14,11 +14,6 @@
   padding-left: 70px;
 }
 
-.advantages__list {
-  list-style: none;
-  padding-left: 0;
-}
-
 .availability__item {
   margin-bottom: 26px;
 }
@@ -65,15 +60,6 @@
   background-size: contain;
 }
 
-.advantages__wrapper {
-  background: rgba(238, 238, 238, 1);
-  padding-top: 20px;
-}
-
-.advantages__list li {
-  margin-bottom: 50px;
-}
-
 .availability__item--housing {
   width: 240px;
 }
@@ -82,4 +68,49 @@
   font-size: 14px;
   line-height: 21px;
   width: 240px;
+}
+
+@media (min-width: $tablet-width) {
+  .availability {
+    display: flex;
+    margin-top: 158px;
+    margin-bottom: 57px;
+  }
+
+  .availability__wrapper {
+    width: inherit;
+    padding: 0;
+  }
+
+  .availability__list {
+    width: 768px;
+    display: flex;
+    padding: 0;
+  }
+
+  .availability__item {
+    width: 185px;
+    height: 112px;
+    margin-right: 40px;
+    text-align: center;
+    margin-left: 30px;
+  }
+
+  .availability__item--food {
+    order: 2;
+  }
+
+  .availability__item--souvenirs {
+    order: 3;
+  }
+
+  .availability__title {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+  }
+
+  .availability__description {
+    width: inherit;
+  }
 }

@@ -1,0 +1,35 @@
+.map__map-mobile {
+  display: block;
+  min-width: 320px;
+  height: 350px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.map__map-tablet,
+.map__map-desktop {
+  display: none;
+}
+
+.map__map-mobile::before {
+  content: "";
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  background-image: url("../img/map-marker.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  left: 161px;
+  top: 160px;
+}
+
+@media (min-width: $tablet-width) {
+  .map-map__tablet {
+    display: block;
+  }
+
+  .map__map-mobile,
+  .map__map-desktop {
+    display: none;
+  }
+}

@@ -48,6 +48,33 @@
   color: rgba(255, 255, 255, 1);
 }
 
+@media (min-width: $tablet-width) {
+  .main-nav__list {
+    display: grid;
+    grid-template-columns: 153px 1fr 153px auto;
+    grid-template-rows: 56px;
+    margin-bottom: -60px;
+  }
+
+  .site-list__item {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px;
+    background: rgba(255, 255, 255, 1);
+    width: 150px;
+    height: 56px;
+    padding: 10px;
+  }
+
+  .site-list__item a {
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .main-nav__toggle {
+    display: block;
+  }
+}
+
 .page-body__logo {
   margin: 0 auto;
 }

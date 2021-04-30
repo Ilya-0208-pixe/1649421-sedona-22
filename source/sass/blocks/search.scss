@@ -33,3 +33,23 @@
   border-color: inherit;
   border-width: 0;
 }
+
+@media (min-width: $tablet-width) {
+  .search {
+    width: 458px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 57px;
+    margin-bottom: 58px;
+  }
+
+  .search__paragraph {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 26px;
+  }
+
+  .search__toggle {
+    width: 458px;
+  }
+}

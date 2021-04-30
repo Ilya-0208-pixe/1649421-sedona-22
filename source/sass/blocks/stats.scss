@@ -71,3 +71,46 @@
   padding: 90px 19px 85px 19px;
   background-image: url("../img/back-mobile.jpg");
 }
+
+@media (min-width: $tablet-width) {
+  .stats__wrapper {
+    margin-top: 0;
+  }
+
+  .stats__textindex {
+    width: 768px;
+    height: 518px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .stats__textindex img {
+    width: 461px;
+    height: 350px;
+    z-index: 2;
+    padding: 77px 154px 91px 153px;
+    margin: auto;
+    background-image: url("../img/back-desktop.jpg");
+  }
+
+  .stats__slogan {
+    font-weight: bold;
+    margin-top: 44px;
+    width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 46px;
+    font-size: 21px;
+    line-height: 26px;
+  }
+
+  .stats__intro {
+    font-size: 14px;
+    white-space: nowrap;
+    width: 520px;
+  }
+
+  br {
+    content: " ";
+  }
+}

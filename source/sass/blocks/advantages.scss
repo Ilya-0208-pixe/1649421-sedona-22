@@ -4,6 +4,16 @@
   padding-bottom: 24px;
 }
 
+.advantages__list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.advantages__wrapper {
+  background: rgba(238, 238, 238, 1);
+  padding-top: 20px;
+}
+
 .advantages__item {
   margin-bottom: 50px;
 }
@@ -16,4 +26,34 @@
 .advantages__description {
   font-size: 14px;
   line-height: 21px;
+  margin: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .advantages {
+    background: rgba(238, 238, 238, 1);
+    padding: 0;
+  }
+
+  .advantages__list {
+    display: flex;
+    margin: 0;
+  }
+
+  .advantages__item {
+    padding: 42px 34px 63px 33px;
+    margin: 0;
+  }
+
+  .advantages__title {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+  }
+
+  .advantages__number {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+  }
 }
