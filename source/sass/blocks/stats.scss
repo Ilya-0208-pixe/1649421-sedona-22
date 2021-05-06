@@ -11,7 +11,7 @@
   width: 285px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 46px;
+  margin-bottom: 33px;
 }
 
 .stats__intro {
@@ -19,13 +19,14 @@
   margin-left: auto;
   margin-right: auto;
   font-size: 14px;
+  margin-bottom: -16px;
 }
 
 .stats__wrapper {
-  margin-bottom: 55px;
+  margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 267px;
+  margin-top: 195px;
 }
 
 .stats__header {
@@ -75,6 +76,7 @@
 @media (min-width: $tablet-width) {
   .stats__wrapper {
     margin-top: 0;
+    margin-bottom: 68px;
   }
 
   .stats__textindex {
@@ -99,7 +101,7 @@
     width: 520px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 46px;
+    margin-bottom: 32px;
     font-size: 21px;
     line-height: 26px;
   }
@@ -132,6 +134,19 @@
 }
 
 @media (min-width: $desktop-width) {
+  .stats__slogan {
+    margin-top: 55px;
+    margin-left: 338px;
+  }
+
+  .stats__intro {
+    margin-left: 339px;
+  }
+
+  .stats__wrapper {
+    margin-bottom: 57px;
+  }
+
   .stats__textindex {
     width: 1200px;
     height: 518px;

@@ -49,21 +49,24 @@
 }
 
 @media (min-width: $tablet-width) {
+  .main-nav {
+    height: 56px;
+  }
+
   .main-nav__list {
     display: grid;
-    grid-template-columns: 153px 1fr 153px auto;
+    grid-template-columns: 154px 1fr 154px auto;
     grid-template-rows: 56px;
-    margin-bottom: -60px;
+    margin-bottom: -55px;
   }
 
   .site-list__item {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 26px;
     background: rgba(255, 255, 255, 1);
     width: 150px;
     height: 56px;
-    padding: 10px;
   }
 
   .site-list__item a {
@@ -89,8 +92,16 @@
 
   .page-body__logo {
     background-image: url("../img/background-logo-desktop.svg");
-    margin: auto;
-    padding: 42px;
     background-repeat: no-repeat;
+    margin-left: 80px;
+    margin-top: 5px;
+    background-size: contain;
+  }
+
+  .site-list__item {
+    width: 160px;
+    font-size: 14px;
+    margin-right: -40px;
+    margin-left: 40px;
   }
 }

@@ -1,11 +1,11 @@
 .availability {
   margin-top: 35px;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
 .availability__wrapper {
   width: 320px;
-  margin: 0 auto;
+  margin-bottom: -3px;
 }
 
 .availability__list {
@@ -19,8 +19,11 @@
 }
 
 .availability__title {
-  margin-bottom: 28px;
+  margin-bottom: 16px;
   position: relative;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
 }
 
 .availability__house::before {
@@ -31,8 +34,8 @@
   background-image: url("../img/icon-house.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
-  left: -50px;
-  top: -8px;
+  left: -49px;
+  top: -10px;
   background-size: contain;
 }
 
@@ -44,8 +47,8 @@
   background-image: url("../img/icon-gift.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
-  left: -50px;
-  top: -8px;
+  left: -45px;
+  top: -11px;
 }
 
 .availability__burger::before {
@@ -56,8 +59,8 @@
   background-image: url("../img/icon-burger.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
-  left: -50px;
-  top: -8px;
+  left: -52px;
+  top: -5px;
   background-size: contain;
 }
 
@@ -75,12 +78,12 @@
   .availability {
     display: flex;
     margin-top: 120px;
-    margin-bottom: 57px;
+    margin-bottom: 40px;
+    width: 768px;
   }
 
   .availability__wrapper {
     width: inherit;
-    padding: 0;
   }
 
   .availability__list {
@@ -94,7 +97,7 @@
     height: 112px;
     margin-right: 40px;
     text-align: center;
-    margin-left: 30px;
+    margin-left: 33px;
   }
 
   .availability__item--food {
@@ -109,6 +112,8 @@
     font-weight: bold;
     font-size: 21px;
     line-height: 26px;
+    margin-bottom: 24px;
+    width: 187px;
   }
 
   .availability__description {
@@ -118,29 +123,33 @@
   .availability__house::before {
     width: 75px;
     height: 72px;
-    left: 60px;
-    top: -100px;
+    left: 57px;
+    top: -97px;
     background-size: contain;
   }
 
   .availability__gift::before {
     width: 64px;
     height: 75px;
-    left: 63px;
-    top: -110px;
+    left: 58px;
+    top: -101px;
     background-size: contain;
   }
 
   .availability__burger::before {
     width: 76px;
     height: 68px;
-    left: 56px;
-    top: -100px;
+    left: 53px;
+    top: -95px;
     background-size: contain;
   }
 }
 
 @media (min-width: $desktop-width) {
+  .availability {
+    margin-bottom: 73px;
+  }
+
   .availability__wrapper {
     width: 1200px;
     padding: 0;
@@ -149,20 +158,26 @@
   .availability__item {
     width: 300px;
     height: 80px;
+    margin-right: -4px;
+    margin-left: 105px;
   }
 
   .availability__house::before {
-    left: 115px;
+    left: 56px;
     background-size: contain;
   }
 
+  .availability__description {
+    margin-left: -55px;
+  }
+
   .availability__gift::before {
-    left: 125px;
+    left: 62px;
     background-size: contain;
   }
 
   .availability__burger::before {
-    left: 115px;
+    left: 56px;
     background-size: contain;
   }
 }

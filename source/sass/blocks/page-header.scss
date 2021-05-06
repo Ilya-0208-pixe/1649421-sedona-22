@@ -8,3 +8,9 @@
     margin: 0 auto;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .page-header__logo {
+    max-width: 40px;
+  }
+}

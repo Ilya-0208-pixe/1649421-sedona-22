@@ -9,7 +9,7 @@
 }
 
 .page-footer__social {
-  margin-bottom: 45px;
+  margin-bottom: 42px;
 }
 
 .social__title {
@@ -24,7 +24,7 @@
   align-items: center;
   justify-content: center;
   padding: 0;
-  margin-top: 38px;
+  margin-top: 35px;
 }
 
 .social__link {
@@ -33,7 +33,7 @@
 
 .social__item {
   background: rgba(129, 179, 210, 1);
-  width: 46px;
+  width: 47px;
   height: 48px;
   margin-right: 6px;
   display: grid;
@@ -48,6 +48,7 @@
 
 .copyright__link {
   color: rgba(0, 0, 0, 1);
+  margin-top: -4px;
 }
 
 .copyright__text {
@@ -93,11 +94,13 @@
 
 @media (min-width: $desktop-width) {
   .page-footer {
-    width: inherit;
+    width: 1200px;
   }
 
   .page-footer__social {
-    margin-left: 104px;
+    margin-left: 120px;
+    margin-top: 18px;
+    margin-right: 83px;
   }
 
   .social__title {
@@ -106,5 +109,12 @@
 
   .social__list {
     margin-right: 80px;
+    margin-left: 13px;
+    margin-top: 25px;
+  }
+
+  .page-footer__copyright {
+    padding-top: 55px;
+    margin-left: 107px;
   }
 }

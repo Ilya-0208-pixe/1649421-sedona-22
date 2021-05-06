@@ -1,5 +1,6 @@
 .search {
   margin-bottom: 49px;
+  margin-top: 30px;
 }
 
 .search__wrapper {
@@ -10,13 +11,13 @@
 .search__paragraph {
   font-size: 21px;
   line-height: 26px;
-  margin-bottom: 34px;
+  margin-bottom: 24px;
 }
 
 .search__content {
   font-size: 14px;
   line-height: 24px;
-  margin-bottom: 27px;
+  margin-bottom: 26px;
 }
 
 .search__toggle {
@@ -28,7 +29,7 @@
   justify-content: center;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 1);
-  font-size: 21px;
+  font-size: 19px;
   line-height: 26px;
   border-color: inherit;
   border-width: 0;
@@ -47,9 +48,36 @@
     font-weight: bold;
     font-size: 30px;
     line-height: 26px;
+    margin-bottom: 33px;
   }
 
   .search__toggle {
     width: 458px;
+  }
+
+  .search__content {
+    width: 394px;
+    padding-left: 50px;
+    margin-bottom: 37px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .search {
+    margin-top: 55px;
+  }
+
+  .search__paragraph {
+    margin-bottom: 34px;
+    margin-left: 80px;
+  }
+
+  .search__content {
+    padding-left: 90px;
+    margin-bottom: 44px;
+  }
+
+  .search__toggle {
+    margin-left: 40px;
   }
 }

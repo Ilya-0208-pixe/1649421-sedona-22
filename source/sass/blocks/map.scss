@@ -23,7 +23,7 @@
   background-repeat: no-repeat;
   background-position: 0 0;
   left: 161px;
-  top: 160px;
+  top: 3164px;
 }
 
 @media (min-width: $tablet-width) {
@@ -41,8 +41,8 @@
   }
 
   .map__map-mobile::before {
-    left: 372px;
-    top: 2464px;
+    left: 370px;
+    top: 2360px;
   }
 }
 
@@ -51,8 +51,11 @@
     width: 1200px;
   }
 
-  .map__map-mobile img,
-  .map__map-tablet img {
+  .map__map-mobile {
+    display: none;
+  }
+
+  .map__map-tablet {
     display: none;
   }
 
