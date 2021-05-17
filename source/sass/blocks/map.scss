@@ -1,20 +1,8 @@
-.map__map-mobile img {
-  display: block;
-  min-width: 320px;
-  height: 350px;
-  margin: 0 auto;
+.map__img {
   position: relative;
 }
 
-.map-map__tablet img {
-  display: none;
-}
-
-.map__map-desktop img {
-  display: none;
-}
-
-.map__map-mobile::before {
+.map__img::before {
   content: "";
   position: absolute;
   width: 27px;
@@ -27,39 +15,18 @@
 }
 
 @media (min-width: $tablet-width) {
-  .map {
+  .map__img {
     width: 768px;
   }
 
-  .map__map-mobile img,
-  .map__map-desktop img {
-    display: none;
-  }
-
-  .map-map__tablet img {
-    display: block;
-  }
-
-  .map__map-mobile::before {
+  .map__img::before {
     left: 370px;
     top: 2360px;
   }
 }
 
 @media (min-width: $desktop-width) {
-  .map {
+  .map__img {
     width: 1200px;
-  }
-
-  .map__map-mobile {
-    display: none;
-  }
-
-  .map__map-tablet {
-    display: none;
-  }
-
-  .map-map__desktop img {
-    display: block;
   }
 }

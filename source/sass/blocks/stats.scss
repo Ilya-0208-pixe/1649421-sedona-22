@@ -69,7 +69,7 @@
   width: 282px;
   height: 214px;
   z-index: 2;
-  padding: 90px 19px 85px 19px;
+  padding: 77px 19px 91px 19px;
   background-image: url("../img/back-mobile.jpg");
 }
 
@@ -87,11 +87,10 @@
   }
 
   .stats__textindex img {
-    width: 461px;
+    width: 95%;
     height: 350px;
     z-index: 2;
-    padding: 77px 154px 91px 153px;
-    margin: auto;
+    margin: 0 auto;
     background-image: url("../img/back-desktop.jpg");
   }
 
@@ -167,7 +166,7 @@
     height: 57px;
     background-image: url("../img/vector-d.svg");
     left: 0;
-    top: 462px;
+    top: 464px;
   }
 
   .stats__textindex::before {
@@ -175,6 +174,6 @@
     height: 57px;
     background-image: url("../img/vector-dr.svg");
     left: 600px;
-    top: 462px;
+    top: 464px;
   }
 }

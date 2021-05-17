@@ -11,10 +11,18 @@
   font-family: "PT Sans", "Arial", sans-serif;
 }
 
+@media (min-width: $tablet-width) {
+  .page-header--modifier,
+  .page-main--modifier,
+  .page-footer--mpdifier {
+    max-width: 768px;
+  }
+}
+
 @media (min-width: $desktop-width) {
-  .page-body {
-    max-width: 1280px;
-    padding-left: 40px;
-    padding-right: 40px;
+  .page-header--modifier,
+  .page-main--modifier,
+  .page-footer--mpdifier {
+    max-width: 1200px;
   }
 }

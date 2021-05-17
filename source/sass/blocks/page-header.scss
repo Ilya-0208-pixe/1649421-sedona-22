@@ -10,7 +10,7 @@
 }
 
 @media (min-width: $desktop-width) {
-  .page-header__logo {
-    max-width: 40px;
+  .page-header {
+    margin: 0 auto;
   }
 }

@@ -12,8 +12,7 @@
 }
 
 .advantages__list {
-  list-style: none;
-  padding-left: 0;
+  @include list-reset;
 }
 
 .advantages__wrapper {
@@ -40,7 +39,7 @@
 
 @media (min-width: $tablet-width) {
   .advantages {
-    background: rgba(238, 238, 238, 1);
+    background: $white;
     padding: 0;
     height: 256px;
   }
